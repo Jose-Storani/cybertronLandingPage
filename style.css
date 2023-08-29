@@ -7,4 +7,75 @@
 body{
   min-height: 100vh;
 }
+nav{
+ padding: 10px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+nav ul li{
+  list-style-type: none;
+  
+}
+a{
+  text-decoration: none;
+  color: rgb(238, 238, 238);
+  transition: color 0.3s;
+}
+
+a:hover{
+  color:#60b5ff
+}
+
+
+main{
+  width: 100%;
+  min-height: 100vh;
+
+  position: relative;
+  
+
+}
+.image-bg{
+  min-height: 100vh;
+  background-image: url("./sWbHxO.webp");
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.hero_main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 25%;
+  padding: 0px 40px;
+  background-color: rgba(240, 248, 255, 0.479);
+}
+
+
+/* CARDS CARE  */
+.caring{
+  position: relative;
+  margin-top: -50px;
+}
+
+.card-care{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-care img{
+  width: 100px;
+  height: auto;
+}
 
