@@ -69,7 +69,7 @@ main{
 .card-care{
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
   align-items: center;
   justify-content: space-between;
 }
@@ -77,5 +77,41 @@ main{
 .card-care img,.card-services img{
   width: 100px;
   height: auto;
+}
+
+
+/* SPECIALTIES SECTION / DEPARTMENT*/
+
+.specialties{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.specialty{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1/6;
+  padding: 20px;
+  gap: 20px;
+}
+
+.specialty img{
+  width: 100px;
+}
+
+@media only screen and (max-width:479px){
+  .specialty{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:480px) and (max-width:767px){
+  .specialty{
+    width: 50%;
+  }
 }
 
