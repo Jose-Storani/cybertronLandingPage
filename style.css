@@ -42,7 +42,7 @@ main{
 }
 .image-bg{
   min-height: 100vh;
-  background-image: url("./sWbHxO.webp");
+  background-image: url("./assets/images/sWbHxO.webp");
   background-position: center;
   background-size: cover;
   
@@ -74,7 +74,7 @@ main{
   justify-content: space-between;
 }
 
-.card-care img{
+.card-care img,.card-services img{
   width: 100px;
   height: auto;
 }
