@@ -27,8 +27,12 @@ a{
   transition: color 0.3s;
 }
 
-a:hover{
+a:hover,#a-insideCard:hover{
   color:#60b5ff
+}
+
+#a-insideCard{
+  color: #698aed;
 }
 
 
