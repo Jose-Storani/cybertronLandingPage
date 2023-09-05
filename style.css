@@ -119,3 +119,40 @@ main{
   }
 }
 
+
+
+
+input[type="text"], textarea,input[type="email"] {
+
+  background-color : #636d76; 
+  border: none;
+  padding: 10px;
+  color:rgb(249, 252, 255)
+
+}
+
+button[type="submit"]{
+  width: 50%;
+  margin:auto;
+  padding: 10px;
+  border: none;
+}
+
+button[type="submit"]:hover{
+  background-color: rgb(215, 204, 204);
+}
+
+footer{
+  background-color: #333537;
+  height: 100px;
+  display: flex;
+justify-content: center;
+align-items: center;
+  
+}
+
+footer p{
+  margin: 0;
+  color: rgb(224, 232, 239);
+  
+}
