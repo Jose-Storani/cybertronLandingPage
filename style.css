@@ -4,8 +4,18 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-padding-top: 40px;
+}
+/* Avenir Next or Sofia Pro. Other good fonts for medical include Open Sans, Gordita, Avenir, Work Sans, Founders Grotesk, Maison Neue, PT Serif, Nuckle, Roboto Mono, Nunito Sans, Publico and Titillium. */
+
 body{
   min-height: 100vh;
+  font-family:'Work Sans',sans-serif;
+  
+  
+
+  ;
 }
 nav{
  padding: 10px;
@@ -60,7 +70,20 @@ main{
   position: absolute;
   top: 25%;
   padding: 0px 40px;
-  background-color: rgba(240, 248, 255, 0.479);
+  background-color: rgba(240, 248, 255, 0.65);
+}
+
+main button{
+  width: 150px;
+  height: 50px;
+  background-color: #546a8b;
+  color: aliceblue;
+  font-weight: bold;
+  border: none;
+}
+
+main button:hover{
+  background-color: #3e4f68;
 }
 
 
@@ -122,6 +145,8 @@ main{
 
 
 
+
+
 input[type="text"], textarea,input[type="email"] {
 
   background-color : #636d76; 
@@ -136,10 +161,11 @@ button[type="submit"]{
   margin:auto;
   padding: 10px;
   border: none;
+  font-weight: 600;
 }
 
 button[type="submit"]:hover{
-  background-color: rgb(215, 204, 204);
+  background-color: rgb(187, 187, 187);
 }
 
 footer{
